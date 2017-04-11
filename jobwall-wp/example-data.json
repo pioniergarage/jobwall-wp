@@ -1,0 +1,95 @@
+[
+
+    {
+        "title": "Putzkraft - Fullstack",
+        "created": "2017-01-05T21:05:13+00:00",
+        "shortDescription": "Wenn du einen starken Überlebenswillen hast und gerne putzt - komm zu uns!",
+        "companyName": "Pioniergarage",
+        "companyLogoUrl": "https://i.ytimg.com/i/QZj-MJqyuS31urx0R4Xmuw/mq1.jpg?v=d5f289",
+        "locationCityName": "New Karlsruhe",
+        "locationZipCode": "23425",
+        "locationStreetWithStreetnumber": "Ziegenhofweg 34b",
+        "isStartup": false,
+        "jobType": "Praktikum",
+        "linkToJobPage": "http://www.ping-jie.de/Speisekarte/Peking-Ente.pdf"
+    },
+    {
+        "title": "EDV-Experte",
+        "created": "2017-01-03T21:05:13+00:00",
+        "shortDescription": "Bitte mach unser Internetz schneller!",
+        "companyName": "HsKa",
+        "companyLogoUrl": "https://pbs.twimg.com/profile_images/454265031492780032/QYW6Wm8U_400x400.png",
+        "locationCityName": "Karlsruhe",
+        "locationZipCode": "23425",
+        "locationStreetWithStreetnumber": "Zoostraße 7",
+        "isStartup": false,
+        "jobType": "Thesis",
+        "linkToJobPage": "http://www.ping-jie.de/Speisekarte/Peking-Ente.pdf"
+    },
+    {
+        "title": "Kaffekocher (m/w)",
+        "created": "2017-01-06T21:05:13+00:00",
+        "shortDescription": "Kannst du Kaffe machen? Wir nicht!",
+        "companyName": "Stadt Karslruhe",
+        "companyLogoUrl": "https://www.stadtwerke-eiszeit.de/fileadmin/user_upload/sponsorenlogos/Stadt-Karlsruhe.png",
+        "locationCityName": "Old Karlsruhe",
+        "locationZipCode": "23425",
+        "locationStreetWithStreetnumber": "Zoostraße 7",
+        "isStartup": false,
+        "jobType": "Werkstudentenstelle",
+        "linkToJobPage": "http://www.ping-jie.de/Speisekarte/Peking-Ente.pdf"
+    },
+    {
+        "title": "Burger Tester - Frontoffice",
+        "created": "2017-01-10T21:05:13+00:00",
+        "shortDescription": "Make our burger great again!",
+        "companyName": "Oxford",
+        "companyLogoUrl": "http://oxford-cafe.de/wp-content/uploads/2015/05/Logo_Oxford_Web.png",
+        "locationCityName": "Karlsruhe",
+        "locationZipCode": "23425",
+        "locationStreetWithStreetnumber": "Zoostraße 7",
+        "isStartup": false,
+        "jobType": "Teilzeitstelle",
+        "linkToJobPage": "http://www.ping-jie.de/Speisekarte/Peking-Ente.pdf"
+    },
+    {
+        "title": "Soßen Tester - Frontoffice",
+        "created": "2017-01-08T21:05:13+00:00",
+        "shortDescription": "Hot Sauce - try and die!",
+        "companyName": "Oxford",
+        "companyLogoUrl": "http://oxford-cafe.de/wp-content/uploads/2015/05/Logo_Oxford_Web.png",
+        "locationCityName": "Karlsruhe",
+        "locationZipCode": "23425",
+        "locationStreetWithStreetnumber": "Zoostraße 7",
+        "isStartup": false,
+        "jobType": "Vollzeitstelle",
+        "linkToJobPage": "http://www.ping-jie.de/Speisekarte/Peking-Ente.pdf"
+    },
+    {
+        "title": "Frau (m/w)",
+        "created": "2017-01-08T21:05:13+00:00",
+        "shortDescription": "Hilf uns unsere Quote zu erreichen",
+        "companyName": "KIT",
+        "companyLogoUrl": "http://www.forschung-mie.de/img/kit_logo_de_farbe_positiv.jpg",
+        "locationCityName": "Karlsruhe",
+        "locationZipCode": "23425",
+        "locationStreetWithStreetnumber": "Zoostraße 7",
+        "isStartup": false,
+        "jobType": "Praktikum",
+        "linkToJobPage": "http://www.ping-jie.de/Speisekarte/Peking-Ente.pdf"
+    },
+    {
+        "title": "Mitgründer (mit Marketing-Skills)",
+        "created": "2017-01-08T21:05:13+00:00",
+        "shortDescription": "Hilf mit uns unsere Partnerbörse für Gründer zu verbessern",
+        "companyName": "GründerFinder",
+        "companyLogoUrl": "https://wpsimplewishdata.s3.amazonaws.com/b/wp-content/uploads/2013/12/startup-fair.jpg",
+        "locationCityName": "Karlsruhe",
+        "locationZipCode": "23425",
+        "locationStreetWithStreetnumber": "Zum alten Schweinemarkt 7",
+        "isStartup": true,
+        "jobType": "Mitgründer",
+        "linkToJobPage": "http://www.ping-jie.de/Speisekarte/Peking-Ente.pdf"
+    }
+
+]
