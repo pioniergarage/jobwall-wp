@@ -71,7 +71,7 @@ class jobwall_wp {
 		$this->version = '0.1.0';
 
 		$this->load_dependencies();
-		$this->set_locale();
+		//$this->set_locale();
 
 		$this->define_admin_hooks();
 		$this->define_public_hooks();
