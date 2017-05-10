@@ -67,10 +67,21 @@ class jobwall_wp_Admin {
 	/**
 	 * Creates the main settings page that gives an overview of all currently added jobs.
 	 * 
+	 * Depending on the request type, this function either displays the list
+	 * or deletes the job, subsequently showing a success of failure page.
+	 * 
 	 * @since    0.1.0
 	 */
 	public function menu_manage_jobwall() {
-		echo '<h1>SETTINGS</h1>';
+		if (isset($_POST['delete'])) {
+			if (jobwall_wp_Admin::delete_job()) {
+				require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/jobwall-wp-admin-deleted.php';
+			} else {
+				require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/jobwall-wp-admin-deletefail.php';
+			}
+		} else {
+			require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/jobwall-wp-admin-list.php';
+		}
 	}
 
 	/**
@@ -91,6 +102,28 @@ class jobwall_wp_Admin {
 		} else {
 			require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/jobwall-wp-admin-add.php';
 		}
+	}
+	
+	/**
+	 * Handles deleting a job from the database.
+	 *
+	 * @since    0.1.0
+	 * @return boolean
+	 */
+	private function delete_job() {
+		$id = $_POST['delete'];
+		//TODO: better input checks
+		if (null == $id) {
+			return false;
+		}
+		global $wpdb;
+		$table_name = $wpdb->prefix . 'jobwall_wp';
+		$wpdb->delete ( $table_name, [ 
+				'id' => $id 
+		] );
+		// TODO: Better error handling
+		$wpdb->print_error ();
+		return true;
 	}
 
 	/**
