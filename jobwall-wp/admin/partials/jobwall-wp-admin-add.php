@@ -52,7 +52,15 @@
 			</tr>
 			<tr valign="top">
 				<th scope="row">Job Type</th>
-				<td><input type="text" name="jobwall_job_jobType" /></td>
+				<?php /** @see https://github.com/pioniergarage/jobwall/blob/master/src/app/job-list/job-list.service.ts */ ?>
+				<td><select name="jobwall_job_jobType">
+					<option>Werkstudentenstelle</option>
+					<option>Praktikum</option>
+					<option>Thesis</option>
+					<option>Vollzeitstelle</option>
+					<option>Teilzeitstelle</option>
+					<option>Mitgründer</option>
+				</select></td>
 			</tr>
 			<tr valign="top">
 				<th scope="row">Link to Job Page</th>
